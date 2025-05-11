@@ -17,7 +17,7 @@ I created this Fast API application provides a REST API for scraping website con
 - Chrome browser (for Selenium WebDriver)
 - OpenAI API key
 
-### Clone the Repository
+### Step-1 : Clone the Repository
 
 ```
 https://github.com/Shoukhin1803078/Niyog_task1_solution.git
