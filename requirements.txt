@@ -1,0 +1,12 @@
+fastapi 
+uvicorn 
+pydantic 
+beautifulsoup4 
+requests 
+selenium 
+webdriver-manager 
+langchain-core 
+langchain-openai
+langchain
+langchain_community
+python-dotenv
