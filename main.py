@@ -36,7 +36,7 @@ OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 
 
 def fetch_website_with_selenium(url):
-    """Fetch the content of a website using Selenium for JavaScript-rendered content."""
+    
     
     chrome_options = Options()
     chrome_options.add_argument("--headless") 
@@ -87,7 +87,7 @@ def fetch_website_with_selenium(url):
 
 
 def fetch_website_with_requests(url):
-    """Fetch the content of a website using simple requests."""
+    
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -100,7 +100,7 @@ def fetch_website_with_requests(url):
 
 
 def extract_text(html_content):
-    """Extract text content from HTML."""
+    
     if not html_content:
         return ""
    
@@ -122,7 +122,7 @@ def extract_text(html_content):
 
 
 def extract_all_content(html_content):
-    """Extract various types of content from HTML."""
+    
     if not html_content:
         return []
    
@@ -211,7 +211,7 @@ def extract_all_content(html_content):
 
 
 def scrape_website(url):
-    """Main function to scrape website content."""
+    
    
     html_content = fetch_website_with_selenium(url)
    
@@ -232,7 +232,7 @@ def scrape_website(url):
 
 
 def process_with_llm(content, question, model="gpt-4o-mini"):
-    """Process the scraped content with OpenAI's LLM to answer the question."""
+    
     try:
        
         llm = ChatOpenAI(model=model)
