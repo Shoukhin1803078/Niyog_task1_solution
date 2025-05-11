@@ -2,7 +2,7 @@
 
 # Web Scraping with LLM Integration
 
-I created this Django application provides a REST API for scraping website content and using an LLM (Large Language Model) to answer questions about the content. It's built with Django REST Framework and uses Selenium for JavaScript-rendered websites and OpenAI's API for natural language processing.
+I created this Fast API application provides a REST API for scraping website content and using an LLM (Large Language Model) to answer questions about the content. 
 
 ## Features
 
