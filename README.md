@@ -56,18 +56,16 @@ In swagger UI API will be at http://localhost:8000/docs
 In POSTMAN API will be available at http://127.0.0.1:8000/scrape-and-answer
 
 
-### Request Body:
+### Sample Request Body:
 {
     "url": "https://example.com",
     "question": "What is the main topic of this website?"
 }
 ​
-### Response:
+### Sample Response:
 {
     "answer": "The main topic of this website is [topic]."
 }
-
-
 
 
 # My output (API Endpoint Test):
